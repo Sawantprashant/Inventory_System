@@ -1,0 +1,23 @@
+use inventory_system;
+db.products.insertMany([
+  {
+    name: "Brake Pads",
+    inventory: 100,
+  },
+  {
+    name: "Brake Rotors",
+    inventory: 80,
+  },
+  {
+    name: "Brake Calipers",
+    inventory: 60,
+  },
+  {
+    name: "Brake Lines",
+    inventory: 120,
+  },
+  {
+    name: "Brake Fluid",
+    inventory: 200,
+  },
+]);
